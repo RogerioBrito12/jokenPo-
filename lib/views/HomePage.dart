@@ -37,13 +37,13 @@ class _HomePageState extends State<HomePage> {
         (escolhaUsuario == "tesoura" && escolhaApp == "papel") ||
         (escolhaApp == "papel" && escolhaApp == "pedra")) {
       setState(() {
-        this._mensagem = "Parabens!!! Voce ganhou";
+        this._mensagem = "Parabêns!!! Você ganhou";
       });
     } else if ((escolhaApp == "pedra" && escolhaUsuario == "tesoura") ||
         (escolhaApp == "tesoura" && escolhaUsuario == "papel") ||
         (escolhaApp == "papel" && escolhaUsuario == "pedra")) {
       setState(() {
-        this._mensagem = "Voce Perdeu tente outra vez";
+        this._mensagem = "Você Perdeu tente outra vez";
       });
     } else {
       setState(() {
